@@ -1,0 +1,33 @@
+#loading-top-background {
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+}
+
+#top-navbar {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: transparent;
+}
+
+#loading-top-paragraph {
+    color: lightgray;
+    font-size: 100px;
+    z-index: 2;
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#top-navbar-brand {
+    color: lightgray;
+}
+
+#navbar-links a{
+    color: lightgray;
+}
