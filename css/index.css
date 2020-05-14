@@ -10,24 +10,68 @@
     position: absolute;
     top: 0;
     width: 100%;
+    padding-right: 60px;
     background: transparent;
 }
 
 #loading-top-paragraph {
-    color: lightgray;
+    color: black;
     font-size: 100px;
     z-index: 2;
     position: absolute;
-    margin: 0 auto;
-    top: 45%;
-    width: 100%;
+    top: 38%;
+    width: 85%;
+    text-align: center;
+}
+
+#loading-top-paragraph-name {
+    color: black;
+    font-size: 75px;
+    z-index: 2;
+    position: absolute;
+    top: 38%;
+    width: 95%;
+    text-align: center;
+}
+
+#loading-paragraph-about {
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    top: 65%;
+    width: 50%;
     text-align: center;
 }
 
 #top-navbar-brand {
-    color: lightgray;
+    color: black;
 }
 
 #navbar-links a{
-    color: lightgray;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+a{
+    color: #1CA1F3;
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+}
+
+a:hover {
+    box-shadow: 0 5px black;
+}
+
+#experience-header {
+    padding-top: 200px;
+    font-size: 75px;
+}
+
+#Experience {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%);
+}
+
