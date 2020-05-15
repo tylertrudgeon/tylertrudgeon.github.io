@@ -68,10 +68,10 @@ a:hover {
 #experience-header {
     padding-top: 200px;
     font-size: 75px;
+    margin-bottom: 100px;
 }
 
 #Experience {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%);
 }
-
